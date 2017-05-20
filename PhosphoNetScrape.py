@@ -1,4 +1,7 @@
-#Python 2.* compatible
+# Web scraper to query PhosphoNet for a phosphorylation site and parse the results so that all
+# predicted kinases and their associated scores for the site can be parsed for import to Peptide Depot.
+# Python 2.* compatible 
+
 import urllib2
 import bs4
 import re
@@ -9,6 +12,7 @@ target_id = sys.argv[1]
 site = sys.argv[2]
 output_file = sys.argv[3]
 
+# test params:
 # target_id = 'P20963'
 # site = 'S124'
 # output_file = 'C:/Users/Judson/Desktop/pnetOutput.txt'
