@@ -1,4 +1,6 @@
-#Python 2.* compatible
+# Web scraper to query ScanSite with an amino acid sequence and get all motif predictions
+# and their confidence scores so they can be imported into Peptide Depot.
+# Python 2.* compatible
 import mechanize
 import bs4
 import re
@@ -9,6 +11,7 @@ prot_name = sys.argv[1]
 seq = sys.argv[2]
 output_file = sys.argv[3]
 
+# test params:
 #prot_name = 'CD3zeta'
 #seq = 'KNPQEGLYNELQKDK'
 #seq = 'mkwkalftaailqaqlpiteaqsfglldpklcylldgilfiygviltalflrvkfsrsadapayqqgqnqlynelnlgrreeydvldkrrgrdpemggkpqrrknpqeglynelqkdkmaeayseigmkgerrrgkghdglyqglstatkdtydalhmqalppr'
