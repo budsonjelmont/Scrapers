@@ -1,3 +1,6 @@
+# parse the submission list created by 'Get PRIDE submission metadata.py'
+# and generate a plot illustrating the cumulative PRIDE submissions by year
+
 import pandas as pd
 import numpy as np
 import datetime
